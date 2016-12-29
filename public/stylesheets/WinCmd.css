@@ -1,0 +1,29 @@
+html,body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 4em;
+  background: cadetblue;
+  text-align: center;
+}
+
+.dirTree {
+  height: 600px;
+  background: aquamarine;
+}
+
+.search-bar {
+  height: 50px;
+  background: darkseagreen;
+}
+
+.files-list {
+  height: 550px;
+  background: gainsboro;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}

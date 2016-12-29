@@ -1,0 +1,19 @@
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<link rel="stylesheet" type="text/css" href="stylesheets/searchDirective.css">
+
+
+<div>
+    <div class="c">
+        <div class="col-md-3">
+            <input type="text" ng-model="file.name" class="form-control" placeholder="file name"/>
+        </div>
+        <div class="col-md-3">
+            <input type="text" ng-model="file.ext" class="form-control" placeholder="file ext"/>
+        </div>
+        <button class="w3-btn w3-green w3-ripple" ng-click="$ctrl.modifyFile()" ng-disabled="!file.name">Modify Name</button>
+        <button class="w3-btn w3-green w3-ripple" ng-click="$ctrl.createFile()">Create File</button>
+    </div>
+</div>
