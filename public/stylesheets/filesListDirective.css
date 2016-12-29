@@ -1,0 +1,45 @@
+/*.file {*/
+    /*border: 1px solid lightgray;*/
+    /*padding: 5px;*/
+    /*border-radius: 3px;*/
+    /*box-shadow: 0 0 4px lightgray;*/
+    /*margin: 10px;*/
+    /*max-width: 150px;*/
+    /*float: left;*/
+    /*box-shadow: 2px 3px 4px 0px black;*/
+    /*color: #3c763d;*/
+    /*background-color: #dff0d8;*/
+/*}*/
+
+Table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+Table td, Table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+Table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {
+    background-color: cadetblue;
+}
+
+/*table tr:active {*/
+    /*background-color: aquamarine;*/
+/*}*/
+
+/*Table tr: {background-color: #ddd;}*/
+
+Table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

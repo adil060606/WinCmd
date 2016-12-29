@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="stylesheets/filesListDirective.css">
+
+<table id="files-list">
+    <tr>
+        <th>File Name</th>
+        <th>File Ext</th>
+        <th>Size</th>
+    </tr>
+    <tr ng-repeat="x in $ctrl.getFiles() | orderBy : 'name'" ng-click="$ctrl.rowClicked(x)">
+        <td>{{ x.name }}</td>
+        <td>{{ x.ext }}</td>
+        <td>{{ x.size }}</td>
+    </tr>
+</table>
